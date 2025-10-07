@@ -36,6 +36,7 @@ Se necesita especificar alguna de las 3 variables de entorno que solicita la ima
 # COMPLETAR
 
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR 
+<img width="1002" height="252" alt="image" src="https://github.com/user-attachments/assets/0fc96580-e8ab-47ba-b934-ba04cc42c178" />
 
 ### ¿Qué bases de datos existen en el contenedor creado?
 # COMPLETAR
