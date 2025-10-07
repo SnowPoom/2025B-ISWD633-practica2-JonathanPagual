@@ -18,13 +18,13 @@ docker inspect var-ent
 
 ### Crear un contenedor con la imagen de mysql, mapear todos los puertos
 # COMPLETAR
-
+docker run -d --name mysql -P mysql
 ### ¿El contenedor se está ejecutando?
 # COMPLETAR
-
+no, se cierra al momento de ejecutar
 ### Identificar el problema
 # COMPLETAR
-
+Se necesita especificar alguna de las 3 variables de entorno que solicita la imagen
 ### Para crear un contenedor con variables de entorno especificadas
 - Portabilidad: Las aplicaciones se vuelven más portátiles y pueden ser desplegadas en diferentes entornos (desarrollo, pruebas, producción) simplemente cambiando el archivo de variables de entorno.
 - Centralización: Todas las configuraciones importantes se centralizan en un solo lugar, lo que facilita la gestión y auditoría de las configuraciones.
