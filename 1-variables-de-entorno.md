@@ -13,6 +13,7 @@ docker run -d --name <nombre contenedor> -e <nombre variable1>=<valor1> -e <nomb
 docker run -d --name var-ent -e username=snowpoom -e role=admin nginx:alpine
 
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR
+docker inspect var-ent
 <img width="1100" height="597" alt="image" src="https://github.com/user-attachments/assets/7f3dc0a8-ac7c-4957-9add-9340fb1fdf43" />
 
 ### Crear un contenedor con la imagen de mysql, mapear todos los puertos
