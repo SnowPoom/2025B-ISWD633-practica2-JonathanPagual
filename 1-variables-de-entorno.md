@@ -39,3 +39,7 @@ Se necesita especificar alguna de las 3 variables de entorno que solicita la ima
 
 ### ¿Qué bases de datos existen en el contenedor creado?
 # COMPLETAR
+existen 4 bases de datos
+<img width="1099" height="666" alt="image" src="https://github.com/user-attachments/assets/cbaa148f-a236-43dc-ae9b-ef1e2673a0d1" />
+
+
