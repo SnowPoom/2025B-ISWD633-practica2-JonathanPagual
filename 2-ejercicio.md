@@ -35,7 +35,8 @@ insert into public.personas(nombre)values('jonathan Pagual'),
 ```
 ## Desde el servidor postgresl
 ### Acceder al servidor
+docker exec -it postgres bash
 ### Conectarse a la base de datos info
-# COMPLETAR
+psql -h localhost -U postgres -d info
 ### Realizar un select *from personas
-# AGREGAR UNA CAPTURA DE PANTALLA DEL RESULTADO
+<img width="382" height="223" alt="image" src="https://github.com/user-attachments/assets/b06e6e09-9900-4f66-b401-8803323535f6" />
