@@ -16,15 +16,15 @@ La figura presenta el esquema creado en donde los puertos son:
 <img width="896" height="689" alt="image" src="https://github.com/user-attachments/assets/c646eb11-e76e-4a21-8739-5953990d6ee7" />
 
 ### Crear la base de datos info, y dentro de esa base la tabla personas, con id (serial) y nombre (varchar), agregar un par de registros en la tabla, obligatorio incluir su nombre.
-´´´sql
+```sql
 CREATE DATABASE "info";
 --database: info
 create table PERSONAS( 
 ID SERIAL PRIMARY KEY NOT NULL,
 NOMBRE VARCHAR(20) NOT NULL);
-´´´
+```
 datos:
-´´´sql
+```sql
 insert into public.personas(nombre)values('jonathan Pagual'),
 ('LeoDov#LAN'),
 ('floor jansen'),
@@ -32,7 +32,7 @@ insert into public.personas(nombre)values('jonathan Pagual'),
 ('kevin wasd'),
 ('juan chest'),
 ('snowpoom');
-´´´
+```
 ## Desde el servidor postgresl
 ### Acceder al servidor
 ### Conectarse a la base de datos info
