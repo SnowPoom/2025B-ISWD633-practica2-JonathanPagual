@@ -4,9 +4,9 @@ docker run -d --name postgres -e POSTGRES_PASSWORD=snowpoom postgres:15-alpine3.
 docker run --name client_pos -e PGADMIN_DEFAULT_EMAIL=jonathan.pagual@hotmail.com -e PGADMIN_DEFAULT_PASSWORD=snowpoom -p 80:80 dpage/pgadmin4
 
 La figura presenta el esquema creado en donde los puertos son:
-- a: (completar con el valor)
-- b: (completar con el valor)
-- c: (completar con el valor)
+- a: 80
+- b: 80
+- c: 5432
 
 ![Imagen](esquema-2-ejercicio.PNG)
 
